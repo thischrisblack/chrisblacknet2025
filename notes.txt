@@ -1,0 +1,4 @@
+Make a custom element that is a music player, present on all pages.
+Then the play buttons could trigger that player.
+How to show the duration? Maybe don't show the duration? Just play/stop?
+
