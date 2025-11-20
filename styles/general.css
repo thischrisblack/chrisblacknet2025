@@ -9,6 +9,7 @@ body {
     margin: 0 auto;
     max-width: 1200px;
     line-height: 1.7rem;
+    padding: 1rem;
 }
 
 p {

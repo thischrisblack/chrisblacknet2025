@@ -1,7 +1,7 @@
 :root {
-    --font-sans-serif: 'Open Sans', sans-serif;
-    --font-serif: 'Merriweather', Georgia, serif;
-    --light: #ede;
+    --font-sans-serif: "Open Sans", sans-serif;
+    --font-serif: "Merriweather", Georgia, serif;
+    --light: #eee;
     --dark: #111;
     --link: #b90505;
     --link-bright: rgb(142, 187, 255);
