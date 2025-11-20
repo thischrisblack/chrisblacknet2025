@@ -28,6 +28,18 @@ header {
         margin: 0.5rem 0 0 0;
     }
 
+    .links-large {
+        display: block;
+    }
+
+    .links-small {
+        display: none;
+
+        summary {
+            font-size: 1.2rem;
+        }
+    }
+
     a {
         color: rgb(255, 0, 0);
         text-decoration: none;
@@ -55,14 +67,26 @@ header {
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 700px) {
     header {
         .wrapper {
             display: block;
+            margin-bottom: 0.5rem;
         }
 
         h1 {
             font-size: 3rem;
         }
+
+        .links-large {
+            display: none;
+        }
+
+        .links-small {
+            display: block;
+        }
     }
+}
+
+@media screen and (max-width: 800px) {
 }

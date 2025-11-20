@@ -4,6 +4,29 @@ class SiteHeader extends HTMLElement {
         super();
     }
 
+    handleLocation = (shadow) => {
+        let element;
+
+        const { pathname } = window.location;
+
+        switch (pathname) {
+            case "/music/":
+                element = shadow.getElementById("music");
+                shadow.getElementById("summary").textContent = "Music";
+                break;
+            case "/":
+                element = shadow.getElementById("home");
+                shadow.getElementById("summary").textContent = "Home";
+                break;
+            default:
+                break;
+        }
+
+        element.classList.add("current-page");
+
+        console.log("EL", pathname, element);
+    };
+
     // Fires when an instance was inserted into the document
     async connectedCallback() {
         const shadow = this.attachShadow({ mode: "open" });
@@ -27,24 +50,7 @@ class SiteHeader extends HTMLElement {
         shadow.appendChild(style);
         shadow.appendChild(wrapper);
 
-        let element;
-
-        const { pathname } = window.location;
-
-        switch (pathname) {
-            case "/music/":
-                element = shadow.getElementById("musiclink");
-                break;
-            case "/":
-                element = shadow.getElementById("homelink");
-                break;
-            default:
-                break;
-        }
-
-        element.classList.add("current-page");
-
-        console.log("EL", pathname, element);
+        this.handleLocation(shadow);
     }
 
     // Fires when an instance was removed from the document
