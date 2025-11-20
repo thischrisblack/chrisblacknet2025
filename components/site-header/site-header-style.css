@@ -1,5 +1,5 @@
 header {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 
     .wrapper {
         display: grid;
@@ -23,7 +23,7 @@ header {
     h1 {
         font-family: var(--font-serif);
         font-size: 3.6rem;
-        font-weight: 200;
+        font-weight: normal;
         line-height: 3rem;
         margin: 0.5rem 0 0 0;
     }
