@@ -1,0 +1,18 @@
+.home-panels {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+    margin: 1rem 0 2rem 0;
+
+    .panel {
+        flex: 1;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .home-panels {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}
