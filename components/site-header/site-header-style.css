@@ -1,5 +1,5 @@
 header {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 
     .wrapper {
         display: grid;
@@ -34,7 +34,7 @@ header {
         margin: 0 0.5rem;
 
         &:hover {
-            color: rgb(255, 0, 0);
+            text-decoration: underline;
         }
 
         &.current-page {

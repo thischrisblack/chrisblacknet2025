@@ -1,0 +1,12 @@
+.albums {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 2rem;
+
+    img {
+        max-width: 350px;
+        max-height: 350px;
+        object-fit: cover;
+    }
+}

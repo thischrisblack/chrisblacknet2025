@@ -32,20 +32,20 @@ h3 {
 }
 
 h1 {
-    font-size: 2.4rem;
+    font-size: 2rem;
     font-weight: 400;
     line-height: 3rem;
 }
 
 h2 {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-weight: 400;
     margin-bottom: 1.5rem;
     margin-top: 2rem;
 }
 
 h3 {
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 400;
     margin-bottom: 0.5rem;
     margin-top: 1rem;
@@ -61,14 +61,6 @@ li {
 
 main {
     padding: 0 1rem 2rem 1rem;
-}
-
-header {
-    padding: 0.5rem 0;
-}
-
-header h1 {
-    flex: 1;
 }
 
 header div {
@@ -106,11 +98,11 @@ footer {
     padding: 1rem 0 3rem 0;
 }
 
-.about>h2 {
+.about > h2 {
     margin-bottom: 1rem;
 }
 
-.about>p {
+.about > p {
     margin: 2rem 0;
 }
 
@@ -118,7 +110,7 @@ footer {
     margin-bottom: 3rem;
 }
 
-.list-block>p {
+.list-block > p {
     margin-bottom: 1rem;
     margin-left: 1.2rem;
 }
@@ -132,7 +124,7 @@ footer {
     margin-bottom: 2rem;
 }
 
-.press-citation>a {
+.press-citation > a {
     font-style: italic;
 }
 
@@ -183,11 +175,6 @@ audio-player {
         padding: 0 2rem 2rem 2rem;
     }
 
-    h1 {
-        font-size: 3.6rem;
-        line-height: 4.2rem;
-    }
-
     .wisdom {
         font-size: 2rem;
         padding: 3rem;
@@ -205,7 +192,7 @@ audio-player {
         margin: initial;
     }
 
-    ul.performances>li {
+    ul.performances > li {
         margin: 1rem 0;
     }
 }
