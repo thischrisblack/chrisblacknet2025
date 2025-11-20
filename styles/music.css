@@ -1,3 +1,7 @@
+.lab {
+    margin-bottom: 2rem;
+}
+
 .albums {
     display: flex;
     flex-wrap: wrap;
