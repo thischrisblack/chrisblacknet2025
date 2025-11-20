@@ -2,7 +2,7 @@
     --font-sans-serif: "Open Sans", sans-serif;
     --font-serif: "Merriweather", Georgia, serif;
     --light: #ccc;
-    --dark: #111;
+    --dark: black;
     --link: #88b0fb;
     --link-bright: rgb(142, 187, 255);
 }
